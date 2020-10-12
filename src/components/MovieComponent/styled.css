@@ -1,0 +1,78 @@
+.movie-component {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 25px;
+  margin-top: 50px;
+  cursor: pointer;
+  color: #f5f5f5de;
+}
+
+.movie-component span {
+  display: block;
+  text-align: center;
+}
+
+.movie-component span:nth-child(1) {
+  font-weight: bold;
+}
+
+.movie-component img {
+  width: 150px;
+  height: 150px;
+}
+.movie-hover {
+  background-color: yellow;
+  display: none;
+}
+.movie-component img:hover + .movie-hover {
+  display: block;
+  color: red;
+}
+
+.modal-title {
+  text-align: center;
+  width: auto;
+}
+
+.modal-close {
+  font-weight: bold;
+  background-color: #4e4e50;
+  color: #c3073f;
+  padding: 7px;
+  border-radius: 5px;
+  float: right;
+  cursor: pointer;
+}
+
+.modal_votes {
+  background-color: rgb(255, 255, 0);
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 50%;
+  transform: translate(-50%, 50%);
+  width: max-content;
+}
+
+.modal-body {
+  display: block;
+  height: auto;
+  padding: 15px;
+}
+
+.modal-posters {
+  text-align: center;
+}
+
+.modal-posters img {
+  width: 30%;
+  margin: 5%;
+  height: 200px;
+}
+
+.stars {
+  padding: 15px;
+  height: auto;
+  display: block;
+}

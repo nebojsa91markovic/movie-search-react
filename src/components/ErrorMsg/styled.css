@@ -1,0 +1,11 @@
+.error-wrapper {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(161, 15, 15);
+  background-color: green;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 5%;
+  transform: translate(50%, 5%);
+  height: 80px;
+}

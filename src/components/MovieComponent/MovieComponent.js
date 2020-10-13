@@ -9,13 +9,6 @@ const customStyles = {
   content: {
     borderRadius: "20px",
     backgroundColor: "rgba(111, 34, 50, 0.9)",
-    width: "50%",
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)",
   },
 };
 

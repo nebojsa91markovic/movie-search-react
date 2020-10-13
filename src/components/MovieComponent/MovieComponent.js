@@ -3,6 +3,7 @@ import "./styled.css";
 import { v4 as uuidv4 } from "uuid";
 import Modal from "react-modal";
 
+import DEFAULT_IMAGE from "../../images/noposter.jpg";
 import Stars from "../Stars";
 
 const customStyles = {
@@ -12,7 +13,7 @@ const customStyles = {
   },
 };
 
-const DEFAULT_IMAGE =
+const DEFAULT_IMAGE1 =
   "https://image.tmdb.org/t/p/original/eiVQORVyVuNNZHPAELuWtlXoQsD.jpg";
 
 const MovieComponent = ({ movieInfo }) => {

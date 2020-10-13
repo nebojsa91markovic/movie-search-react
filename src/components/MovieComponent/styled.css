@@ -65,17 +65,25 @@
 
 .modal-posters {
   text-align: center;
+  height: 250px;
 }
 
 .modal-posters img {
+  height: 100%;
   width: 30%;
-  margin: 5%;
-  height: 200px;
-  object-fit: cover;
+  object-fit: contain;
+  margin: 5px;
 }
 
 .stars {
   padding: 15px;
   height: auto;
   display: block;
+}
+
+@media screen and (max-width: 500px) {
+  .modal-posters img {
+    display: block;
+    width: 100%;
+  }
 }

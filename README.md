@@ -1,3 +1,28 @@
+# Movie Search
+
+> Simple Movie Search app that gives you informations about your favorite movie.
+
+## Table of contents
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
+
+## General info
+Movie Search build that gives you basic informations like: movie description, pictures and star level how much people liked that movie. 
+
+## Screenshots
+![Example screenshot](https://user-images.githubusercontent.com/59211000/96591034-0ecd1a00-12e7-11eb-9836-cd35e05e2160.png)
+
+## Technologies
+* React JS
+* CSS3
+* Axios
+
+## Setup
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +91,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Status
+Project is finished as it was my first project in react using axios.
+
+## Inspiration
+Api Service by [https://www.themoviedb.org/](https://www.pokemon.com/us/)
+
+
+## Contact
+Created by [@Nebojsa Markovic](https://www.linkedin.com/in/nebojsa-markovic-6760111b5/) - feel free to contact me!
